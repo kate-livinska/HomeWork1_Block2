@@ -74,7 +74,7 @@
                                     <action selector="toggleLights:" destination="9XX-qN-qiV" eventType="touchUpInside" id="ekU-Se-kka"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="q7v-x5-r3S">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2ec-YB-JRZ">
                                 <rect key="frame" x="142.66666666666666" y="77" width="90" height="300"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eRM-mZ-Dbj">
@@ -91,22 +91,18 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="5ub-uM-voZ"/>
-                                    <constraint firstAttribute="width" constant="90" id="BA3-Qg-N2c"/>
-                                    <constraint firstItem="hxk-al-qdL" firstAttribute="width" secondItem="eRM-mZ-Dbj" secondAttribute="width" id="Eh4-8O-WDd"/>
-                                    <constraint firstItem="sFh-V5-T7B" firstAttribute="width" secondItem="eRM-mZ-Dbj" secondAttribute="width" id="Xkf-wc-kvo"/>
-                                    <constraint firstItem="sFh-V5-T7B" firstAttribute="height" secondItem="eRM-mZ-Dbj" secondAttribute="height" id="cid-zW-QO2"/>
-                                    <constraint firstItem="hxk-al-qdL" firstAttribute="height" secondItem="eRM-mZ-Dbj" secondAttribute="height" id="unM-KI-QHK"/>
+                                    <constraint firstAttribute="width" constant="90" id="8Mg-9O-oos"/>
+                                    <constraint firstAttribute="height" constant="300" id="OaQ-h7-35e"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="deo-G9-71W"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="2ec-YB-JRZ" firstAttribute="centerX" secondItem="6Y6-8y-nSY" secondAttribute="centerX" id="RaD-EQ-LnI"/>
                             <constraint firstItem="Zet-fs-oxW" firstAttribute="centerX" secondItem="6Y6-8y-nSY" secondAttribute="centerX" id="c3D-lP-9X0"/>
-                            <constraint firstItem="q7v-x5-r3S" firstAttribute="top" secondItem="deo-G9-71W" secondAttribute="top" constant="30" id="e7c-cg-I3i"/>
                             <constraint firstAttribute="bottom" secondItem="Zet-fs-oxW" secondAttribute="bottom" constant="40" id="kFG-t0-zqT"/>
-                            <constraint firstItem="q7v-x5-r3S" firstAttribute="centerX" secondItem="6Y6-8y-nSY" secondAttribute="centerX" id="stf-tt-bhm"/>
+                            <constraint firstItem="2ec-YB-JRZ" firstAttribute="top" secondItem="deo-G9-71W" secondAttribute="top" constant="30" id="yDt-w8-bkU"/>
                         </constraints>
                     </view>
                     <connections>
