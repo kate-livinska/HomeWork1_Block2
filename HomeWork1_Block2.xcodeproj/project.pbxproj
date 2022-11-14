@@ -13,7 +13,6 @@
 		4168A39F291FFD2C00516835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4168A39D291FFD2C00516835 /* Main.storyboard */; };
 		4168A3A1291FFD2C00516835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4168A3A0291FFD2C00516835 /* Assets.xcassets */; };
 		4168A3A4291FFD2C00516835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4168A3A2291FFD2C00516835 /* LaunchScreen.storyboard */; };
-		4168A3AC29201CB900516835 /* Semaphore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4168A3AB29201CB900516835 /* Semaphore.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		4168A3A0291FFD2C00516835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4168A3A3291FFD2C00516835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4168A3A5291FFD2C00516835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4168A3AB29201CB900516835 /* Semaphore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Semaphore.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 				4168A399291FFD2C00516835 /* SceneDelegate.swift */,
 				4168A39B291FFD2C00516835 /* ViewController.swift */,
 				4168A39D291FFD2C00516835 /* Main.storyboard */,
-				4168A3AB29201CB900516835 /* Semaphore.storyboard */,
 				4168A3A0291FFD2C00516835 /* Assets.xcassets */,
 				4168A3A2291FFD2C00516835 /* LaunchScreen.storyboard */,
 				4168A3A5291FFD2C00516835 /* Info.plist */,
@@ -131,7 +128,6 @@
 				4168A3A4291FFD2C00516835 /* LaunchScreen.storyboard in Resources */,
 				4168A3A1291FFD2C00516835 /* Assets.xcassets in Resources */,
 				4168A39F291FFD2C00516835 /* Main.storyboard in Resources */,
-				4168A3AC29201CB900516835 /* Semaphore.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
